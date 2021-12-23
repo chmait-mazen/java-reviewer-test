@@ -25,7 +25,7 @@ public class GuessingGame {
         System.out.println("Sorry for your luck, restart the program to play again!");
     }
 	
-	private static void validateAnswer(userAnswer, computerNumber)
+	private static void validateAnswer(int userAnswer, int computerNumber)
 	{
 		if (userAnswer <=0 || userAnswer >100) {
             System.out.println("Invalid response");
